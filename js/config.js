@@ -10,7 +10,7 @@
 /*URL for the server logo
 Leave it blank to use text instead
 (Put the files in the images folder)*/
-var l_serverImage = "logo.png";
+var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
@@ -57,7 +57,17 @@ var l_bgImages = [
 	"loading02.jpg",
 	"loading03.jpg",
 	"loading04.jpg",
-	"loading05.jpg"
+	"loading05.jpg",
+	"loading06.jpg",
+	"loading07.jpg",
+	"loading08.jpg",
+	"loading09.jpg",
+	"loading10.jpg",
+	"loading11.jpg",
+	"loading12.jpg",
+	"loading13.jpg",
+	"loading14.jpg",
+	"loading15.jpg"
 ];
 
 /*Random background images order?*/
@@ -66,7 +76,7 @@ var l_bgImagesRandom = true;
 /*(Image-background only)
 Delay between background images changes
 in milliseconds*/
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 2000;
 
 /*(Image-background only)
 Image background fade velocity
@@ -91,7 +101,11 @@ var l_musicDisplay = true;
 Place how much .ogg songs you want
 (Put the files in the songs folder)*/
 var l_musicPlaylist = [
-	{ogg: "starwarstheme.ogg", name: "StarWars Theme"},
+	{ogg: "song01.ogg", name: "The Imperial March"},
+	{ogg: "song02.ogg", name: "Star Wars Theme"},
+	{ogg: "song03.ogg", name: "The Force Theme"},
+	{ogg: "song04.ogg", name: "The Force Theme Remix"},
+	{ogg: "song05.ogg", name: "The Imperial March Remix"},	
 ];
 
 /*Random music order?*/
@@ -99,14 +113,14 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 5;
+var l_musicVolume = 2;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-	"Enjoy the server",
+	"Go Check Out Our Fourms: http://guardiangaming.mistforums.com/",
 	"Thanks for joining us!",
 	"Join The Guardian Gaming Discord: https://discord.gg/CK5syJ6"
 ];
